@@ -253,7 +253,7 @@ docker compose up airflow-init
 docker compose up -d
 ```
 
-![Screenshot 2024-12-19 at 12.06.45.png](ML%20Pipeline%20Orchestration%20with%20Apache%20Airflow%20130d4718bce88002bd00d09a363f69d4/f2d91925-a702-47cc-864a-056bc71bd1cb.png)
+![Airflowlab-05.png](image/image-01.png)
 
 1. To check running containers.
 
@@ -267,7 +267,7 @@ docker ps
 docker-compose down
 ```
 
-![Screenshot 2024-12-19 at 12.06.58.png](ML%20Pipeline%20Orchestration%20with%20Apache%20Airflow%20130d4718bce88002bd00d09a363f69d4/e601de61-fd6a-4dc2-a9e5-6b435da5fc97.png)
+![Airflowlab-05.png](image/image-02.png)
 
 ## Step 05: Run and test the file.
 
@@ -275,23 +275,23 @@ To run and test the file, we can expose the Airflow GUI by Poridhi Load Balancer
 
 - Go to the load balancer.
 
-![Screenshot 2024-11-20 at 8.47.51 PM.png](ML%20Pipeline%20Orchestration%20with%20Apache%20Airflow%20130d4718bce88002bd00d09a363f69d4/Screenshot_2024-11-20_at_8.47.51_PM.png)
+![Airflowlab-05.png](image/image-03.png)
 
 - Use ifconfig to find your VM’s IP.
 
-![Screenshot 2024-11-20 at 8.48.41 PM.png](ML%20Pipeline%20Orchestration%20with%20Apache%20Airflow%20130d4718bce88002bd00d09a363f69d4/Screenshot_2024-11-20_at_8.48.41_PM.png)
+![Airflowlab-05.png](image/image-04.png)
 
 - Create the load balancer with your IP and Airflow exposing port which is 8081 here and launch it.
 
-![Screenshot 2024-11-20 at 8.49.13 PM.png](ML%20Pipeline%20Orchestration%20with%20Apache%20Airflow%20130d4718bce88002bd00d09a363f69d4/Screenshot_2024-11-20_at_8.49.13_PM.png)
+![Airflowlab-05.png](image/image-05.png)
 
 - After logging in to Airflow using credentials, it will provide visuals of your created DAGs.
 
-![Screenshot 2024-12-19 at 12.03.11.png](ML%20Pipeline%20Orchestration%20with%20Apache%20Airflow%20130d4718bce88002bd00d09a363f69d4/Screenshot_2024-12-19_at_12.03.11.png)
+![Airflowlab-05.png](image/image-06.png)
 
-![Screenshot 2024-12-19 at 12.03.29.png](ML%20Pipeline%20Orchestration%20with%20Apache%20Airflow%20130d4718bce88002bd00d09a363f69d4/Screenshot_2024-12-19_at_12.03.29.png)
+![Airflowlab-05.png](image/image-07.png)
 
-![Screenshot 2024-12-19 at 12.03.51.png](ML%20Pipeline%20Orchestration%20with%20Apache%20Airflow%20130d4718bce88002bd00d09a363f69d4/Screenshot_2024-12-19_at_12.03.51.png)
+![Airflowlab-05.png](image/image-08.png)
 
 # Conclusion:
 
