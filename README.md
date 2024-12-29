@@ -9,7 +9,7 @@ Created: October 31, 2024 9:46 PM
 
 A Machine Learning (ML) pipeline is a structured workflow that automates and streamlines the process of developing and deploying a machine learning model. It encompasses several steps starting from data collection and preprocessing to train the model and evaluate it as well as deployment. 
 
-![Screenshot 2024-11-01 at 5.01.53 AM.png](ML%20Pipeline%20Orchestration%20with%20Apache%20Airflow%20130d4718bce88002bd00d09a363f69d4/Screenshot_2024-11-01_at_5.01.53_AM.png)
+![Airflowlab-05.png](image/Airflowlab-05.png)
 
 # Table of contents:
 
